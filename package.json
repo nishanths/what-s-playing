@@ -1,0 +1,32 @@
+{
+  "name": "what-s-playing",
+  "title": "What's Playing",
+  "id": "jid1-uzyNd9YVXBpMOw",
+  "description": "Beautiful desktop notifications of the currently playing song on Spotify Web Player and Songza.",
+  "author": "Nishanth Shanmugham",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "http://nishanths.github.io/projects/what-s-playing/",
+  "icon": "./data/images/icon48.png",
+  "icon64": "./data/images/icon64.png",
+
+  "preferences": [{
+    "name": "contextMenu",
+    "title": "Show option in context menu (right-click)",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "name": "firstRun",
+    "title": "To open documentation on first run",
+    "type": "bool",
+    "value": true,
+    "hidden": true
+  },
+  {
+    "name": "websiteButton",
+    "title": "Features, help, and goodies",
+    "type": "control",
+    "label": "Add-on Homepage"
+  }]
+}
