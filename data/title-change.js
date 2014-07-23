@@ -2,10 +2,11 @@
 // So we do have to wait for window.ready here
 
 function titleModified() {
-self.postMessage(document.title);
+  self.postMessage(document.title);
 }
 
 // http://stackoverflow.com/questions/2497200/how-to-listen-for-changes-to-the-title-element/2499119#2499119
+// Calls titleModified() for every title change in the same page (does not include title changes from navigating to a different URL)
 var titleEl = document.getElementsByTagName("title")[0];
 var docEl = document.documentElement;
 
