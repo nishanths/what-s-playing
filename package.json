@@ -5,7 +5,7 @@
   "description": "Displays desktop notifications for online music services like Spotify, Grooveshark, and Songza. Simply play a song to start seeing notifications.",
   "author": "@nshanmugham",
   "license": "MIT",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "homepage": "http://www.github.com/nishanths/what-s-playing/",
   "icon": "./data/images/icon48.png",
   "icon64": "./data/images/icon64.png",
