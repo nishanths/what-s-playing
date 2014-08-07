@@ -8,9 +8,10 @@ Latest Mozilla-reviewed version:
 - Get it from [addons.mozilla.org](https://addons.mozilla.org/addon/what-s-playing).
 
 Latest unreviewed version:
-- Get the pre-compiled `.xpi` from the base of this repository.
-- Drag the `.xpi` onto a Firefox window.
+- Download the newest `what-s-playing.xpi` from https://github.com/nishanths/what-s-playing/releases.
+- Drag the downloaded file onto a Firefox window.
 
+===
 ![Screenshot on Yosemite](http://cl.ly/image/0d0b240R0W2Q/140222.png)
 
 Usage
