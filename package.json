@@ -5,7 +5,7 @@
   "description": "See desktop notifications for song changes on Spotify, Grooveshark, and more. Simply play a song to begin.",
   "author": "@nshanmugham",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "homepage": "http://www.github.com/nishanths/what-s-playing/",
   "icon": "./data/images/icon48.png",
   "icon64": "./data/images/icon64.png",
