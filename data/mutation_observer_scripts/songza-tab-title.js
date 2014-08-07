@@ -13,6 +13,6 @@ var addon_exists = true;
 
 observer.observe(target, options); // set up
 
-self.port.on("detach", function() {
+self.port.on("detach", function() { // to disable posting messages after add-on removal
   addon_exists = false;
 });
