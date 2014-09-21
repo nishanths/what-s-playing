@@ -5,6 +5,7 @@ var observer = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) { 
     if (addon_exists){ 
       self.postMessage(mutation.target.textContent);
+      console.log("SONGZA TAB:" + mutation.target.textContent);
     }
   });
 });

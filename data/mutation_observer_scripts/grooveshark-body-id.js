@@ -16,6 +16,7 @@ var observer_play_pause = new MutationObserver(function(mutations) {
       var started_playing = document.getElementById('play-pause').outerHTML;
       if (/class="\S* \S* playing/.test(started_playing)){
         self.postMessage(target_metadata.textContent);
+        console.log("GROOVESHARK BODY ID:" + target_metadata.textContent);
       }
     }
   });
