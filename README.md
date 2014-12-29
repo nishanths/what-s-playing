@@ -2,6 +2,13 @@
 ===
 What's Playing is a Firefox Add-on that enables desktop notifications for online music services.
 
+Websites it works on
+===
+* Grooveshark
+* Songza
+* Spotify Web Player
+* Rdio
+
 Installation
 ===
 Latest Mozilla-reviewed version:
@@ -16,7 +23,7 @@ Latest unreviewed version:
 
 Usage
 ===
-- Simply play a song on any supported website to begin receiving notifications.
+- Simply play a song on any [supported website](https://github.com/nishanths/what-s-playing#websites-it-works-on) to begin receiving notifications.
 - Use the context-menu option if you want to quickly find out what song is currently playing.
 - See full notes at [addons.mozilla.org](https://addons.mozilla.org/addon/what-s-playing)
 

@@ -6,7 +6,7 @@ var observer = new MutationObserver(function(mutations) {
     if (addon_exists) {
       var status = document.querySelector('button.play_pause').outerHTML,
           is_playing = /class="\S* playing/.test(status); // initially Rdio starts paused with the song from last session
-      if (is_playing) { self.postMessage(mutation.target.innerHTML); }
+      if (is_playing) { self.postMessage(mutation.target.textContent); }
     }
   });
 }); 
